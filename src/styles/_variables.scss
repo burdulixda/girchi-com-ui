@@ -3,6 +3,7 @@
 // Color system
 $lighter-green: #85e78c;
 $light-green: #2fa837;
+$medium-green: #72BF44;
 $dark-green: #318b37;
 $green: #327f37;
 $hospital-green: #93e599;
@@ -11,6 +12,7 @@ $silver: #d4dadf;
 $light-silver: #efeff0;
 $dark-silver: #b4bfc7;
 $grey: #919499;
+$lighter-grey: #B9BCC1;
 $light-grey: #ebeff2;
 $blue: #32394d;
 $dark-blue: #33353c;
@@ -29,6 +31,7 @@ $colors: () !default;
 $colors: map-merge(
   (
     "light-green": $light-green,
+    "medium-green": $medium-green,
     "lighter-green": $lighter-green,
     "hospital-green": $hospital-green,
     "dark-green": $dark-green,
@@ -38,6 +41,7 @@ $colors: map-merge(
     "light-silver": $light-silver,
     "dark-silver": $dark-silver,
     "grey": $grey,
+    "lighter-grey": $lighter-grey,
     "light-grey": $light-grey,
     "blue": $blue,
     "light-blue": $light-blue,
@@ -77,9 +81,11 @@ $theme-colors: map-merge(
     "yellow": $yellow,
     "dark-white": $dark-white,
     "grey": $grey,
+    "lighter-grey": $lighter-grey,
     "light-silver": $light-silver,
     "dark-silver": $dark-silver,
     "light-green": $light-green,
+    "medium-green": $medium-green,
     "lighter-green": $lighter-green,
     "dark-green": $dark-green,
     "hospital-green": $hospital-green,

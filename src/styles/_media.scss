@@ -7,6 +7,11 @@
     &-link {
       overflow: hidden;
       display: block;
+      &-overlay {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 100%;
+      }
       img {
         display: block;
         transition: transform 0.4s;
@@ -33,6 +38,12 @@
   }
   &:hover {
     .media-thumb-link {
+      &-overlay {
+        display: flex;
+        a {
+          font-weight: 700;
+        }
+      }
       img {
         transform: scale(1.1);
       }

@@ -27,6 +27,7 @@
     "bootstrap-select": "^1.13.10",
     "bootstrap-slider": "^10.6.1",
     "bootstrap-tagsinput": "^0.7.1",
+    "caniuse-lite": "^1.0.30001204",
     "clean-webpack-plugin": "^2.0.2",
     "compression-webpack-plugin": "^2.0.0",
     "css-loader": "^2.1.1",
